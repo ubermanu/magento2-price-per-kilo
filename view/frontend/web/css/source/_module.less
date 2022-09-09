@@ -1,0 +1,17 @@
+//
+//  Variables
+//  _____________________________________________
+
+@price-per-weight-color: @color-gray80;
+
+//
+//  Common
+//  _____________________________________________
+
+& when (@media-common = true) {
+    .price-box {
+        .price-per-weight {
+            .lib-css(color, @price-per-weight-color);
+        }
+    }
+}

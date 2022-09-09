@@ -1,0 +1,9 @@
+<?php
+/** @var \Ubermanu\PricePerWeight\Pricing\Render\Adjustment $block */
+$product = $block->getProduct();
+?>
+<?php if ($block->isFrontend() && $block->productHasWeight($product)): ?>
+    <span class="price-per-weight">
+        <span class="price"><?= $block->getPricePerWeight($product) ?></span> / <span class="weight-unit"><?= $block->getWeightUnit($product) ?></span>
+    </span>
+<?php endif; ?>
