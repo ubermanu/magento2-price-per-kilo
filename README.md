@@ -4,7 +4,7 @@ This module allows you to render the price according the weight unit of the prod
 
 ## Install
 
-    composer require ubermanu/magento2-price-per-weight-unit
+    composer require ubermanu/magento2-price-per-weight
 
 ## Usage
 
